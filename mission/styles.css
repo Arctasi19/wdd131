@@ -1,0 +1,38 @@
+* {
+    line-height: 1.5;
+}
+h2 {
+    color: #006EB6;
+    text-align: center;
+    font-size: 85%;
+}
+h1 {
+    text-align: center;
+    color: black;
+    font-weight: normal;
+    margin: auto;
+    padding: 0;
+}
+h1, h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.content {
+    max-width: 600px;
+    margin: auto;
+    padding: 75px;
+    padding-top: 50px;
+    border: 1px solid black;
+}
+.logo {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+li {
+    margin-bottom: 10px;
+}
+header {
+    border-bottom: 1px solid gray;
+}
