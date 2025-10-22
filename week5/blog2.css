@@ -5,7 +5,7 @@
 }
 .site-title {
     color: #473f4d;
-    font-size: 2.5rem;
+    font-size: rem;
     text-align: center;
     border-bottom: 1px solid #be937f; 
     padding: 2.5rem;
@@ -40,9 +40,9 @@ ul {
     color: #a0522d;
 }
 .book-title {
-    color: #8b2113;
+    color: #cc3622;
     font-family: serif;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 .main-content {
     display: grid;
@@ -50,34 +50,50 @@ ul {
 }
 .filter-box {
     grid-column: 2 / 3;
+    margin-right: 40px;
+    border: 1px solid #be937f;
+    height: 100%;
+    margin-left: 0;
+    width: 14rem;
 }
 .book-listings {
     grid-column: 1 / 2;
 }
-.book1 {
+.book-listings article {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 40px;
 }
 .book-info {
     grid-column: 1/2;
-    line-height: 2.5rem;
-    padding-right: 14rem;
+    line-height: 1.7rem;
+    margin-right: 1rem;
+    width: auto;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+    border-right: 1px solid #be937f;
+    text-align: right;
 }
 .book-display {
     grid-column: 2/3;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+}
+.book-cover {
+    margin-left: auto;
+    margin-right: auto;
 }
 .book-cover img {
-    max-width: 200px;
-    height: auto;
     margin: 20px;
+}
+.date {
+    font-size: 1.2rem;
 }
 .continue-link {
     color: #c92610;
     text-decoration: none;
 }
-
-
 
 
 .skiptocontent a {
