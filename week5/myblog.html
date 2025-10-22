@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Review Site</title>
+    <script src="blog.js" defer></script>
+    <link rel="stylesheet" href="myblog.css">
+</head>
+<body>
+    <header>
+        <h1>Book Review Site</h1>
+        <div class="skiptocontent">
+            <a href="#maincontent">skip to main content</a>
+        </div>
+        <nav>
+            <a href="#">About</a>
+            <a href="#">Archive</a>
+        </nav>
+       
+    </header>
+    <body>
+        <div id='filter-bar'>
+            <section class="search-box">
+                <p>Search</p>
+                <input type="text" id="search" name="search" placeholder="Title, author, genre...">
+            </section>
+            <section class="filter-box">
+                <p>Filter By...</p>
+                <select name="Sort" id="sort">
+                    <option value="alphAsc">A-Z</option>
+                    <option value="alphDesc">Z-A</option>
+                    <option value="rateDesc">High Rating</option>
+                    <option value="rateAsc">Low Rating</option>
+                </select>
+                <select name="Age Range" id="age">
+                    <option value="young">0-10</option>
+                    <option value="tween">10-12</option>
+                    <option value="teen">13-17</option>
+                    <option value="youngAdult">18-24</option>
+                    <option value="adult">25+</option>
+                </select>
+                <select name="Genre" id="genre">
+                    <option value="fantasy">Fantasy</option>
+                    <option value="sciFi">Sci-Fi</option>
+                    <option value="fiction">Fiction</option>
+                    <option value="nonFiction">Non-Fiction</option>
+                    <option value="mystery">Mystery</option>
+                </select>
+                <select name="Rating" id="rating">
+                    <option value="1Star">1 Star</option>
+                    <option value="2Star">2 Star</option>
+                    <option value="3Star">3 Star</option>
+                    <option value="4Star">4 Star</option>
+                    <option value="5Star">5 Star</option>
+                </select>
+            </section>
+        </div>
+        <main id="book-list">
+            <section class="book-listing">
+                <div class="book-info">
+                    <h2>Book Title</h2>
+                    <p>The title here</p>
+                    <h2>Author</h2>
+                    <p>Author here</p>
+                    <h2>Rating</h2>
+                    <p>Rating here ⭐⭐⭐⭐⭐</p>
+                    <h2>Age Range</h2>
+                    <p>Age range here</p>
+                    <h2>Genre</h2>
+                    <p>Genre here</p>
+                </div>
+                <div class="book-cover">
+                    <img src="images/nonfiction2.png" alt="Book Cover Image">
+                </div>
+                <div class="book-review">
+                    <h2>Book Blurb</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate voluptates, perferendis dolore veniam adipisci laboriosam explicabo reiciendis ab quasi fugiat vero, magnam, officiis illum sequi dolores cumque dignissimos. Vitae, rem?</p>
+                    <h2>Online Review</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates itaque a asperiores culpa? Esse quo impedit aliquam provident magnam adipisci, suscipit ipsa deleniti, ea, corporis quae quod eum sed nam.</p>
+                </div>
+            </section>
+            <section class="book-listing">
+                <div class="book-info">
+                    <h2>Book Title</h2>
+                    <p>The title here</p>
+                    <h2>Author</h2>
+                    <p>Author here</p>
+                    <h2>Rating</h2>
+                    <p>Rating here ⭐⭐⭐⭐⭐</p>
+                    <h2>Age Range</h2>
+                    <p>Age range here</p>
+                    <h2>Genre</h2>
+                    <p>Genre here</p>
+                </div>
+                <div class="book-cover">
+                    <img src="images/nonfiction2.png" alt="Book Cover Image">
+                </div>
+                <div class="book-review">
+                    <h2>Book Blurb</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate voluptates, perferendis dolore veniam adipisci laboriosam explicabo reiciendis ab quasi fugiat vero, magnam, officiis illum sequi dolores cumque dignissimos. Vitae, rem?</p>
+                    <h2>Online Review</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates itaque a asperiores culpa? Esse quo impedit aliquam provident magnam adipisci, suscipit ipsa deleniti, ea, corporis quae quod eum sed nam.</p>
+                </div>
+            </section>
+        </main>
+            
+    </body>
+    <footer>
+    </footer>
+</body>
+</html>

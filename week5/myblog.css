@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 300px ;
+    text-align: center;
+    border: 2px solid black;
+    background-color: #E94F37;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 100px;
+}
+#filter-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2D82B7;
+    border: 2px solid black;
+    border-top: none;
+}
+.filter-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-left: 2px solid black;
+    padding-left: 20px;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+}
+main {
+    display: grid;
+    grid-template-rows: repeat(auto-fit);
+    gap: 20px;
+    background-color: #F3DFBF;
+}
+.book-listing {
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    grid-template-rows: 700px;
+    gap: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px
+}
+.book-info {
+    text-align: left;
+    border: 2px solid black;
+    padding: 30px;
+    background-color: #2D82B7;
+}
+.book-cover {
+    display: flex;
+    border: 2px solid black;
+}
+.book-cover img {
+    width: 100%;
+    height: auto;
+    background-color: #2D82B7;
+}
+.book-review {
+    text-align: left;
+    border: 2px solid black;
+    padding: 30px;
+    background-color: #2D82B7;
+}
+.skiptocontent a {
+    position: absolute;
+    top: -9999px;
+    left: 0;
+    background-color: #333; 
+    color: white; 
+    padding: 10px;
+    z-index: 1000; 
+}
+.skiptocontent a:focus {
+    top: 0;
+    left: 0;
+}
